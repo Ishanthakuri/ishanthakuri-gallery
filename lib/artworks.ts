@@ -11,17 +11,7 @@ export const artworks: Artwork[] = [
     dimensions: "120 x 150 cm",
     year: 2024,
   },
-  {
-    id: "kathmandu-dreams",
-    title: "Kathmandu Dreams",
-    imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_1111.JPG-3H9rqKDkupYR7C8FVKvK8VKqceoydx.jpeg",
-    status: "available",
-    description: "A vibrant mixed-media collage celebrating the rich cultural tapestry of Kathmandu. Bold red lettering interweaves with traditional Newari architecture, sacred temples, the living goddess Kumari, and powerful deities like Bhairav. Prayer flags flutter above snow-capped mountains, while birds take flight - a visual symphony of Nepal's spiritual and artistic heritage.",
-    medium: "Mixed media on paper",
-    dimensions: "80 x 100 cm",
-    year: 2024,
-    aspectRatio: "landscape",
-  },
+  
   {
     id: "cosmic-enlightenment",
     title: "Cosmic Enlightenment",
