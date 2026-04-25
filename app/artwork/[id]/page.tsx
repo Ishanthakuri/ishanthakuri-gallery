@@ -38,12 +38,12 @@ export default async function ArtworkPage({ params }: ArtworkPageProps) {
           </Link>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
-            <div className="relative aspect-[4/5] bg-muted overflow-hidden">
+            <div className="relative aspect-[3/4] bg-muted overflow-hidden">
               <Image
                 src={artwork.imageUrl}
                 alt={artwork.title}
                 fill
-                className="object-cover"
+                className="object-contain"
                 priority
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
