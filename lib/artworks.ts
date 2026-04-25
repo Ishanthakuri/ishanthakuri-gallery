@@ -2,8 +2,8 @@ import type { Artwork } from "@/components/artwork-grid"
 
 export const artworks: Artwork[] = [
   {
-    id: "golden-summit",
-    title: "Golden Summit",
+    id: "sunrise-annapurna",
+    title: "Sunrise Moment at South Annapurna Base Camp",
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8834.png-7EbqYmF6lUdimWWYBaFgCZT8VEUtNM.jpeg",
     status: "available",
     description: "A majestic Himalayan peak bathed in golden alpenglow, captured through expressive impasto technique. The textured brushwork brings dimension to the rugged terrain, while the dramatic contrast between the warm sunlit summit and the deep blue stormy sky evokes the raw power and timeless beauty of the mountains.",
