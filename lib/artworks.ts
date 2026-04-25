@@ -8,7 +8,7 @@ export const artworks: Artwork[] = [
     status: "available",
     description: "A majestic Himalayan peak bathed in golden alpenglow, captured through expressive impasto technique. The textured brushwork brings dimension to the rugged terrain, while the dramatic contrast between the warm sunlit summit and the deep blue stormy sky evokes the raw power and timeless beauty of the mountains.",
     medium: "Acrylic on canvas",
-    dimensions: "120 x 150 cm",
+    dimensions: "4'3\" x 5'7\" (130 x 170 cm)",
     year: 2026,
   },
   
@@ -19,7 +19,7 @@ export const artworks: Artwork[] = [
     status: "available",
     description: "A contemplative monochromatic piece depicting Buddha in deep meditation, surrounded by celestial bodies and ethereal cosmic energy. The grayscale palette creates a sense of transcendence, with swirling mists and moons orbiting the enlightened figure. This work explores themes of inner peace, universal consciousness, and the connection between the spiritual and cosmic realms.",
     medium: "Acrylic on canvas",
-    dimensions: "60 x 90 cm",
+    dimensions: "21\" x 29.5\" (53 x 75 cm)",
     year: 2024,
   },
 ]
