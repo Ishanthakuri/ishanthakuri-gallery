@@ -8,13 +8,20 @@ interface ArtworkCardProps {
   title: string
   imageUrl: string
   status: "available" | "sold"
+  aspectRatio?: "portrait" | "landscape" | "square"
 }
 
-export function ArtworkCard({ id, title, imageUrl, status }: ArtworkCardProps) {
+export function ArtworkCard({ id, title, imageUrl, status, aspectRatio = "portrait" }: ArtworkCardProps) {
+  const aspectClass = {
+    portrait: "aspect-[4/5]",
+    landscape: "aspect-[4/3]",
+    square: "aspect-square",
+  }[aspectRatio]
+
   return (
     <Link href={`/artwork/${id}`} className="group block">
       <article className="space-y-3">
-        <div className="relative aspect-[4/5] overflow-hidden bg-muted">
+        <div className={`relative ${aspectClass} overflow-hidden bg-muted`}>
           <Image
             src={imageUrl}
             alt={title}

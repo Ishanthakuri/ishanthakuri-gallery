@@ -20,6 +20,7 @@ export const artworks: Artwork[] = [
     medium: "Mixed media on paper",
     dimensions: "80 x 100 cm",
     year: 2024,
+    aspectRatio: "landscape",
   },
   {
     id: "cosmic-enlightenment",

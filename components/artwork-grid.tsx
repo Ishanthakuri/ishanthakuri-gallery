@@ -9,6 +9,7 @@ export interface Artwork {
   medium?: string
   dimensions?: string
   year?: number
+  aspectRatio?: "portrait" | "landscape" | "square"
 }
 
 interface ArtworkGridProps {
@@ -27,6 +28,7 @@ export function ArtworkGrid({ artworks }: ArtworkGridProps) {
               title={artwork.title}
               imageUrl={artwork.imageUrl}
               status={artwork.status}
+              aspectRatio={artwork.aspectRatio}
             />
           ))}
         </div>
