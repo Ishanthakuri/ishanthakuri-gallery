@@ -5,6 +5,10 @@ export interface Artwork {
   title: string
   imageUrl: string
   status: "available" | "sold"
+  description?: string
+  medium?: string
+  dimensions?: string
+  year?: number
 }
 
 interface ArtworkGridProps {

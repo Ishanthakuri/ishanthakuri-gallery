@@ -67,20 +67,20 @@ export default async function ArtworkPage({ params }: ArtworkPageProps) {
 
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  This original artwork is a unique piece crafted with meticulous attention 
-                  to detail and artistic expression. Each brushstroke tells a story, 
-                  inviting viewers to explore the depths of color and emotion.
-                </p>
-                <p>
-                  Created with premium materials and archival quality paints, this piece 
-                  is built to last for generations while maintaining its vibrant beauty.
+                  {artwork.description || "This original artwork is a unique piece crafted with meticulous attention to detail and artistic expression."}
                 </p>
               </div>
 
               <div className="space-y-3 text-sm text-muted-foreground">
-                <p><span className="font-medium text-foreground">Medium:</span> Oil on canvas</p>
-                <p><span className="font-medium text-foreground">Dimensions:</span> 100 x 120 cm</p>
-                <p><span className="font-medium text-foreground">Year:</span> 2024</p>
+                {artwork.medium && (
+                  <p><span className="font-medium text-foreground">Medium:</span> {artwork.medium}</p>
+                )}
+                {artwork.dimensions && (
+                  <p><span className="font-medium text-foreground">Dimensions:</span> {artwork.dimensions}</p>
+                )}
+                {artwork.year && (
+                  <p><span className="font-medium text-foreground">Year:</span> {artwork.year}</p>
+                )}
               </div>
 
               {artwork.status === "available" && (
