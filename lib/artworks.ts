@@ -7,7 +7,7 @@ export const artworks: Artwork[] = [
     imageUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8834.png-7EbqYmF6lUdimWWYBaFgCZT8VEUtNM.jpeg",
     status: "available",
     description: "A majestic Himalayan peak bathed in golden alpenglow, captured through expressive impasto technique. The textured brushwork brings dimension to the rugged terrain, while the dramatic contrast between the warm sunlit summit and the deep blue stormy sky evokes the raw power and timeless beauty of the mountains.",
-    medium: "Oil on canvas",
+    medium: "Acrylic on canvas",
     dimensions: "120 x 150 cm",
     year: 2024,
   },
