@@ -16,7 +16,7 @@ export function Header() {
           
           <nav className="flex items-center gap-6">
             <Link 
-              href="https://instagram.com" 
+              href="https://www.instagram.com/ishansthakuri?igsh=aTF2bWhoZHp5NWs3&utm_source=qr" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-foreground transition-colors duration-200"
