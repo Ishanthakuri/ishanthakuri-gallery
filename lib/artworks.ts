@@ -20,6 +20,6 @@ export const artworks: Artwork[] = [
     description: "A contemplative monochromatic piece depicting Buddha in deep meditation, surrounded by celestial bodies and ethereal cosmic energy. The grayscale palette creates a sense of transcendence, with swirling mists and moons orbiting the enlightened figure. This work explores themes of inner peace, universal consciousness, and the connection between the spiritual and cosmic realms.",
     medium: "Acrylic on canvas",
     dimensions: "21\" x 29.5\" (53 x 75 cm)",
-    year: 2024,
+    year: 2022,
   },
 ]
