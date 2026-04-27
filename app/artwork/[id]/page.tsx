@@ -83,14 +83,14 @@ export default async function ArtworkPage({ params }: ArtworkPageProps) {
                 )}
               </div>
 
-              {artwork.status === "available" && (
+              {/* {artwork.status === "available" && (
                 <Button 
                   size="lg" 
                   className="w-full sm:w-auto px-12 py-6 text-base tracking-wider uppercase"
                 >
                   Inquire About This Piece
                 </Button>
-              )}
+              )} */}
 
               {artwork.status === "sold" && (
                 <p className="text-sm text-muted-foreground italic">
