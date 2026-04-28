@@ -18,23 +18,23 @@ export const metadata: Metadata = {
   title: 'Ishan Singh Thakuri | Original Artworks',
   description: 'Discover unique original artworks by Ishan Singh Thakuri. Browse the collection of paintings and find your next masterpiece.',
   generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
+  // icons: {
+  //   icon: [
+  //     {
+  //       url: '/icon-light-32x32.png',
+  //       media: '(prefers-color-scheme: light)',
+  //     },
+  //     {
+  //       url: '/icon-dark-32x32.png',
+  //       media: '(prefers-color-scheme: dark)',
+  //     },
+  //     {
+  //       url: '/icon.svg',
+  //       type: 'image/svg+xml',
+  //     },
+  //   ],
+  //   apple: '/apple-icon.png',
+  // },
 }
 
 export default function RootLayout({
