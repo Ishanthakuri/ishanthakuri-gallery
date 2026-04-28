@@ -10,7 +10,7 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center">
             <span className="font-serif text-2xl sm:text-3xl font-medium tracking-wide text-foreground">
-              Ishan Singh Thakuri
+              Ishan Singh Thakuri - Art Gallery
             </span>
           </Link>
           
