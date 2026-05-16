@@ -38,7 +38,7 @@ export function ArtworkCard({ id, title, imageUrl, status, aspectRatio = "portra
           </h3>
           <span 
             className={`text-sm tracking-wider uppercase ${
-              status === "available" 
+              status === "sold" 
                 ? "text-accent" 
                 : "text-muted-foreground"
             }`}
